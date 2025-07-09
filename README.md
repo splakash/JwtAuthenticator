@@ -70,6 +70,11 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
     </pre>
   </li>
+<li><strong>Update <code>Configuration/CorsConfiguration</code></strong>
+    <pre>
+      currently it is allowing React frontend you can change the url in CorsConfiguration
+    </pre>
+  </li>
 
   <li><strong>Run the Application</strong>
     <pre>./mvnw spring-boot:run</pre>
